@@ -5,6 +5,7 @@ module.exports = {
     extend: {
       colors: {
         "regal-blue": "#577de0",
+        "regal-grey": "#67686a",
         "regal-blue-dark": "#4e71c9",
       },
       letterSpacing: {
@@ -24,6 +25,7 @@ module.exports = {
         '128': '34rem',
         '127': '29rem',
         '126': '24rem',
+        '125': '20rem',        
       }
     },
   },

@@ -63,6 +63,7 @@ const Navbar = () => {
           <motion.li
             transition={spring}
             animate={{ scale: 1.2 }}
+            whileTap={{ scale: 1.2 }}
             whileHover={{ scale: 1.1 }}
             className="px-6 max-lg:py-2"
           >
@@ -71,6 +72,7 @@ const Navbar = () => {
           <motion.li
             transition={spring}
             animate={{ scale: 1.2 }}
+            whileTap={{ scale: 1.2 }}
             whileHover={{ scale: 1.1 }}
             className="px-6 max-lg:py-2"
           >
@@ -79,6 +81,7 @@ const Navbar = () => {
           <motion.li
             transition={spring}
             animate={{ scale: 1.2 }}
+            whileTap={{ scale: 1.2 }}
             whileHover={{ scale: 1.1 }}
             className="px-6 max-lg:py-2"
           >
@@ -88,6 +91,7 @@ const Navbar = () => {
             transition={spring}
             animate={{ scale: 1.2 }}
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 1.2 }}
             className="px-6 max-lg:py-2"
           >
             <a href="/services">Services</a>
@@ -96,6 +100,7 @@ const Navbar = () => {
             transition={spring}
             animate={{ scale: 1.2 }}
             whileHover={{ scale: 1.1 }}
+            whileTap={{ scale: 1.2 }}
             className="px-6 max-lg:py-2"
           >
             <a href="/home">Number</a>
@@ -106,6 +111,9 @@ const Navbar = () => {
         <motion.button
           transition={{ ease: "linear", duration: 0.3 }}
           whileHover={{ scale: 0.9 }}
+          whileTap={{ scale: 1 }}
+          initial={{scale:0.9}}
+          animate={{scale:1}}
           className="bg-regal-blue px-8 py-2   rounded-full hover:bg-regal-blue-dark tracking-tighter font-semibold "
         >
           Hire me
