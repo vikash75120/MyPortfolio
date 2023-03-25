@@ -87,7 +87,7 @@ const Navbar = () => {
           >
             <a href="/home">Projects</a>
           </motion.li>
-          <motion.li
+          {/* <motion.li
             transition={spring}
             animate={{ scale: 1.2 }}
             whileHover={{ scale: 1.1 }}
@@ -95,8 +95,8 @@ const Navbar = () => {
             className="px-6 max-lg:py-2"
           >
             <a href="/services">Services</a>
-          </motion.li>
-          <motion.li
+          </motion.li> */}
+          {/* <motion.li
             transition={spring}
             animate={{ scale: 1.2 }}
             whileHover={{ scale: 1.1 }}
@@ -104,7 +104,7 @@ const Navbar = () => {
             className="px-6 max-lg:py-2"
           >
             <a href="/home">Number</a>
-          </motion.li>
+          </motion.li> */}
         </ul>
       </div>
       <div className=" max-lg:translate-x-60 max-lg:hidden">
